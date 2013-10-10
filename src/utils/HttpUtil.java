@@ -24,7 +24,7 @@ public class HttpUtil {
             httpConn.setDoInput(true);
             httpConn.setDoOutput(true);
             // System.setProperty("sun.net.client.defaultConnectTimeout", "30000");//jdk1.4换成这个,连接超时
-            // System.setProperty("sun.net.client.defaultReadTimeout", "30000"); //jdk1.4换成这个,读操作超�?
+            // System.setProperty("sun.net.client.defaultReadTimeout", "30000"); //jdk1.4换成这个,读操作超时
             httpConn.setConnectTimeout(30000);// jdk 1.5换成这个,连接超时
             httpConn.setReadTimeout(30000);// jdk 1.5换成这个,读操作超�?
             httpConn.connect();
