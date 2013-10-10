@@ -191,7 +191,7 @@ public class BeanUtil {
     }
     
     /**
-     * 通过序列化进行深度复�?
+     * 通过序列化进行深度复制?
      * @param obj
      * @return
      * @throws Exception
@@ -200,7 +200,7 @@ public class BeanUtil {
         if(null == obj) {
             return null;
         }
-        // 将对象写到流�?
+        // 将对象写到流里?
         ByteArrayOutputStream bo=new ByteArrayOutputStream();
         ObjectOutputStream oo=new ObjectOutputStream(bo);
         oo.writeObject(obj);
